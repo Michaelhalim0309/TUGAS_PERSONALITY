@@ -34,9 +34,19 @@ class Result extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
         ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color.fromARGB(255, 83, 77, 78),
+              shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+              ),
+            ),
             onPressed: resetHandler,
             child: const Text('Coba lagi?',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold)))
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 0, 0, 0),
+                )))
       ],
     ));
   }

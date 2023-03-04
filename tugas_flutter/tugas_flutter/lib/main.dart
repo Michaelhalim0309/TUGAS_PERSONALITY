@@ -16,101 +16,102 @@ class MainApp extends StatefulWidget {
 class _MainAppState extends State<MainApp> {
   final _soalJawaban = const [
     {
-      'question': 'Kapan kamu merasa baik?',
+      'question':
+          'Ketika membuat suatu perencanaan. Saya yakin dapat melaksanakan rencana tersebut!',
       'answers': [
-        {'text': 'Pagi hari', 'score': 2},
-        {'text': 'Siang hari', 'score': 4},
-        {'text': 'Sore hari', 'score': 6},
-        {'text': 'Malam hari', 'score': 8},
-      ],
-    },
-    {
-      'question': 'Bagaimana kamu biasanya berjalan?',
-      'answers': [
-        {'text': 'Cepat', 'score': 4},
-        {'text': 'Agak cepat', 'score': 6},
-        {'text': 'Agak lambat', 'score': 8},
-        {'text': 'Jalan lambat', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
       'question':
-          'Ketika kamu berbicara sama orang, biasanya kamu bersikap seperti apa?',
+          'Saya terkadang tidak bisa segera mulai bekerja ketika saya seharusnya melakukannya!',
       'answers': [
-        {
-          'text':
-              'Salah satu atau kedua tanganmu ada di pinggul atau masuk kantong',
-          'score': 6
-        },
-        {'text': 'Kedua tangan kamu berpegangan', 'score': 4},
-        {'text': 'Tidak memainkan apapun', 'score': 8},
-        {'text': 'Angkat kaki sebelah', 'score': 2},
-      ],
-    },
-    {
-      'question': 'Ketika lagi santai, kamu duduk dengan?',
-      'answers': [
-        {'text': 'Kedua kaki menyilang', 'score': 4},
-        {'text': 'Kaki kanan di atas kaki kiri', 'score': 6},
-        {'text': 'Kaki kiri di atas kaki kanan', 'score': 8},
-        {'text': 'Kedua kaki lurus', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
       'question':
-          'Ketika sesuatu benar-benar membuatmu geli, kamu bereaksi seperti apa?',
+          'Ketika saya gagal melaksanakan tugas untuk pertama kali, maka saya gigih mencobanya sampai berhasil melakukannya!',
       'answers': [
-        {'text': 'Tertawa keras', 'score': 8},
-        {'text': 'Ketawa saja', 'score': 6},
-        {'text': 'Biasa aja', 'score': 2},
-        {'text': 'Senyum', 'score': 4},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
       'question':
-          'Saat kamu pergi ke pesta, kamu biasanya menggunakan baju seperti apa?',
+          'Saya menyerah ketika melakukan sesuatu sebelum saya menyelesaikannya!',
       'answers': [
-        {'text': 'Biasa aja', 'score': 2},
-        {'text': 'Asal rapi', 'score': 6},
-        {'text': 'Paling oke', 'score': 8},
-        {'text': 'Harus tampil paling oke', 'score': 4},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
       'question':
-          'Ketika kamu lagi fokus dan ada yang menganggu, maka kamu akan?',
+          'Saya jarang mencapai tujuan-tujuan penting yang sudah saya tetapkan sebelumnya!',
       'answers': [
-        {'text': 'Marah', 'score': 4},
-        {'text': 'Menyambut', 'score': 6},
-        {'text': 'Terganggu', 'score': 8},
-        {'text': 'Diamin', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
-      'question': 'Warna paling suka?',
+      'question': 'Saya takut akan kesulitan dan selalu menghindarinya!',
       'answers': [
-        {'text': 'Hitam', 'score': 4},
-        {'text': 'Merah atau orange', 'score': 6},
-        {'text': 'Kuning atau biru langit', 'score': 8},
-        {'text': 'Cokelat atau abu-abu', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
-      'question': 'Kamu sering bermimpi apa??',
+      'question':
+          'Jika saya menemui sesuatu pekerjaan yang terlihat sulit, saya tak mau mencoba melakukan pekerjaan tersebut!',
       'answers': [
-        {'text': 'Jatuh', 'score': 4},
-        {'text': 'Berkelahi', 'score': 6},
-        {'text': 'Mimpi indah', 'score': 8},
-        {'text': 'Terbang', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     },
     {
-      'question': 'Cara tidur kamu gimana?',
+      'question':
+          'Jika mencoba hal baru dan tidak berhasil, saya segera menyerah!',
       'answers': [
-        {'text': 'Berbaring telentang', 'score': 4},
-        {'text': 'Ke samping', 'score': 6},
-        {'text': 'Kepala menindih tangan', 'score': 8},
-        {'text': 'Kepala dibawah bantal', 'score': 2},
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
+      ],
+    },
+    {
+      'question':
+          'Saya menghindari mencoba sesuatu yang baru jika terlihat rumit dan kompleks!',
+      'answers': [
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
+      ],
+    },
+    {
+      'question':
+          'Ketika terlibat dalam suatu proyek bersama, saya sering menjadi pencetus gagasan!',
+      'answers': [
+        {'text': 'Sangat setuju', 'score': 15},
+        {'text': 'Setuju', 'score': 8},
+        {'text': 'Kurang setuju', 'score': 4},
+        {'text': 'Tidak setuju', 'score': 2},
       ],
     }
   ];
@@ -135,11 +136,12 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
       home: Scaffold(
-          appBar: AppBar(title: const Text('PERSONALITY TEST MBTI')),
+          backgroundColor: Colors.grey,
+          appBar: AppBar(
+            title: const Text('PERSONALITY TEST MBTI'),
+            backgroundColor: const Color.fromARGB(255, 227, 5, 5),
+          ),
           body: _questionIndex < _soalJawaban.length
               ? Kuis(
                   questionAnswers: _soalJawaban,

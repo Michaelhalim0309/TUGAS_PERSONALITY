@@ -13,17 +13,17 @@ class Answer extends StatelessWidget {
       margin: const EdgeInsets.only(left: 40, right: 30, top: 20, bottom: 10),
       child: OutlinedButton(
         style: OutlinedButton.styleFrom(
-          side: const BorderSide(color: Colors.black, width: 2),
-          backgroundColor: Color.fromARGB(255, 210, 14, 47),
+          side: const BorderSide(color: Colors.black, width: 3),
+          backgroundColor: const Color.fromARGB(255, 83, 77, 78),
           shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(Radius.circular(10)),
+            borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
         ),
         onPressed: selectHandler,
         child: Text(answerText,
             style: const TextStyle(
               fontSize: 28,
-              color: Colors.black,
+              color: Color.fromARGB(255, 248, 248, 248),
               fontWeight: FontWeight.bold,
             )),
       ),
